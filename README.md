@@ -6,7 +6,8 @@ A lightweight hotkey overlay for Hearthstone Battlegrounds. Press customizable k
 
 ## Download
 
-**[Download Latest Release](../../releases/latest)** (Windows only)
+**[Download Latest Release](../../releases/latest)** (Windows only) 
+Just click the .exe file on the release window. That contains everything you need for it to work.
 
 > **Note:** Windows may show a SmartScreen warning since this is unsigned. Click "More info" → "Run anyway". All source code is available for review.
 
