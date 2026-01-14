@@ -33,7 +33,7 @@ Just click the .exe file on the release window. That contains everything you nee
 - **Access settings:** Right-click the system tray icon
 - **One-click actions:** Press your hotkey and the action happens instantly
 
-## Compiling from Source
+## Compiling from Source (instead of using .exe)
 
 Requires [AutoHotkey v1.1.37+](https://www.autohotkey.com/):
 
