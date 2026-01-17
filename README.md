@@ -1,22 +1,25 @@
 # Hearthstone Battlegrounds Hotkeys
 
-A lightweight hotkey overlay for Hearthstone Battlegrounds. Press customizable keys to instantly Level Up, Reroll, or Freeze without clicking.
+A lightweight hotkey overlay for Hearthstone Battlegrounds.   
+Press customizable keys to instantly __Level Up__, __Reroll__, __Freeze__ or __sell__ without clicking.
 
-![Screenshot](screenshot%20HS%20BG%20Hotkeys.jpg) <!-- Add a screenshot if you want -->
+![Screenshot](assets/screenshot%20Hearthstone%20BGs%20Hotkeys.jpg) <!-- Add a screenshot if you want -->
 
 ## Download
 
-**[Download Latest Release](../../releases/latest)** (Windows only) 
+**[Download Latest Release](../../releases/latest)** (Windows only)   
 Just click the .exe file on the release window. That contains everything you need for it to work.
 
 > **Note:** Windows may show a SmartScreen warning since this is unsigned. Click "More info" → "Run anyway". All source code is available for review.
 
 ## Features
 
-- 🎮 Customizable hotkeys (default: F, D, Space)
+- 🎮 Customizable hotkeys (keyboard + mouse buttons)
 - 📊 Clean overlay showing active keys
 - 🎯 Advanced: Capture exact positions for any resolution
 - ⚙️ Settings persist across sessions
+- 🔧 Enable/disable individual hotkeys
+- 💰 Quick-sell hotkey for dragging minions to Bob
 
 ## Quick Start
 
@@ -29,8 +32,10 @@ Just click the .exe file on the release window. That contains everything you nee
 ## Usage Tips
 
 - **Change hotkeys:** Click the button next to each action
-- **Custom positions:** Check "Use Custom Click Positions" and click "Capture" buttons
-- **Access settings:** Right-click the system tray icon
+- **Resolution:** Select your monitor resolution to automatically scales click positions
+- **Custom positions:** Select "Custom" radio button and use "Capture" buttons for exact positioning
+- **Disable hotkeys:** Each hotkey can be individually disabled/enabled with the × button
+- **Access settings:** Click the system tray icon
 - **One-click actions:** Press your hotkey and the action happens instantly
 
 ## Compiling from Source (instead of using .exe)
@@ -51,6 +56,22 @@ Requires [AutoHotkey v1.1.37+](https://www.autohotkey.com/):
 **Clicks in wrong position:**
 - Use "Capture" buttons for custom positions
 - Make sure Hearthstone resolution matches your selection
+
+## Changelog
+
+### v1.1.0 (January 17th 2026)
+- ✨ Added ability to disable/enable individual keybinds with × buttons
+- ✨ Resolution selection now persists on startup
+- ✨ Added full mouse button support (Mouse4, Mouse5, Middle Mouse Button)
+- ✨ Added quick-sell hotkey functionality (drag minions to Bob)
+- 🎨 Completely redesigned settings GUI with radio buttons for resolutions
+- 🎨 Improved layout and visual hierarchy
+
+### v1.0.0 (January 13th 2026)
+- Initial release
+- Customizable hotkeys for Level Up, Reroll, Freeze
+- Resolution-specific positioning
+- Settings overlay
 
 ## Credits
 
