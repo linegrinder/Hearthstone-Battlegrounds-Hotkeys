@@ -1,7 +1,7 @@
 # Hearthstone Battlegrounds Hotkeys
 
 A lightweight hotkey overlay for Hearthstone Battlegrounds.   
-Press customizable keys to instantly __Level Up__, __Reroll__, __Freeze__ or __sell__ without clicking.
+Press customizable keys to instantly __Level Up__, __Reroll__, __Freeze__, __Buy__, __Sell__, __Send to Duo Mate__ without clicking.
 
 ![Screenshot](assets/screenshot%20Hearthstone%20BGs%20Hotkeys.jpg) <!-- Add a screenshot if you want -->
 
@@ -14,33 +14,36 @@ Just click the .exe file on the release window. That contains everything you nee
 
 ## Features
 
-- 🎮 Customizable hotkeys (keyboard + mouse buttons)
-- 📊 Clean overlay showing active keys
-- 🎯 Advanced: Capture exact positions for any resolution
-- ⚙️ Settings persist across sessions
-- 🔧 Enable/disable individual hotkeys
-- 💰 Quick-sell hotkey for dragging minions to Bob
+- 🎮 **6 Customizable Hotkeys**: Level Up, Reroll, Freeze, Buy, Sell, and Send to Duo Mate (mouse buttons + keyboard)
+- 📊 **Smart Overlay**: Clean, movable overlay showing active keybinds
+- 🔒 **Lock/Unlock Overlay**: Lock the overlay in place or drag it around your screen
+- 👁️ **Visual Keybind Indicators**: Toggle black boxes that appear directly on the in-game buttons (Eye icon toggle)
+- ⚙️ **Settings Persist**: Your hotkey configuration and preferences are saved between sessions
+- 🔧 **Enable/Disable Individual Hotkeys**: Each keybind can be independently disabled/enabled with × buttons
+- 🎨 **Compact & Full Display Modes**: Switch between showing only core hotkeys (Compact) or all 6 hotkeys (Full)
+- 🎯 **Universal Resolution Support**: Works on any resolution/aspect ratio (1920x1080, 2560x1440, ultrawide, etc.)
+- 💬 **Auto-Disable During Chat**: Hotkeys are automatically disabled when you open the in-game chat window (prevents accidental presses)
 
 ## Quick Start
 
 1. Run `HearthstoneHotkeys.exe`
 2. Configure your preferred hotkeys
-3. Select your resolution
+4. Choose Compact or Full display mode
 4. Click "Save & Minimize"
 5. Hotkeys work when Hearthstone is active!
 
 ## Usage Tips
 
 - **Change hotkeys:** Click the button next to each action
-- **Resolution:** Select your monitor resolution to automatically scales click positions
-- **Custom positions:** Select "Custom" radio button and use "Capture" buttons for exact positioning
 - **Disable hotkeys:** Each hotkey can be individually disabled/enabled with the × button
+- **Remove a hotkey:** Click the × button to disable that specific hotkey
+- **Mouse buttons:** Supports Mouse4, Mouse5, and Middle Mouse Button in addition to keyboard keys
 - **Access settings:** Click the system tray icon
 - **One-click actions:** Press your hotkey and the action happens instantly
 
 ## Compiling from Source (instead of using .exe)
 
-Requires [AutoHotkey v1.1.37+](https://www.autohotkey.com/):
+Requires [AutoHotkey v2.0+](https://www.autohotkey.com/):
 
 1. Save `.ahk` file as **UTF-8 with BOM** encoding (use Notepad++)
 2. Place `Bob_Hotkey.png` and `icon.ico` in same folder
@@ -53,11 +56,28 @@ Requires [AutoHotkey v1.1.37+](https://www.autohotkey.com/):
 - Ensure Hearthstone is running
 - Check that hotkeys aren't conflicting with other apps
 
-**Clicks in wrong position:**
-- Use "Capture" buttons for custom positions
-- Make sure Hearthstone resolution matches your selection
+**Overlay appears in wrong position:**
+- The overlay should move with your Hearthstone window automatically
+- If not, try locking/unlocking the overlay with the 🔒/🔓 button
+- Restart the app if positioning issues persist
 
 ## Changelog
+
+### v1.2 (January 29th 2026)
+- ✨ **Buy Hotkey**: Added customizable hotkey for buying minions
+- ✨ **Send to Duo Mate Hotkey**: Added hotkey to quickly send minions to your duo mate (Duos mode)
+- ✨ **Window-Specific Overlay**: Overlay is now tied to the Hearthstone window instead of the monitor
+- ✨ **Movable Overlay**: Overlay can now be dragged around (unlock with 🔓 button to move, lock with 🔒 to lock in place)
+- ✨ **Automatic Overlay Scaling**: Overlay automatically adjusts its size based on which hotkeys are enabled
+- ✨ **Visual Keybind Indicators**: Added black box overlays that appear directly on in-game buttons (toggle with 👁️)
+- ✨ **Chat Window Detection**: Hotkeys are automatically disabled when the in-game chat window is open
+- ✨ **Compact/Full Display Modes**: Toggle between showing only the 3 core hotkeys or all 6 hotkeys
+- ✨ **Version Checker**: App automatically checks for updates on startup
+- ✨ **Skip Settings on Startup**: Added option to skip the settings window on next startup
+- ✨ **Auto-Close on Hearthstone Exit**: Added option to automatically close BG Hotkeys when exiting Hearthstone
+- 🎨 **Code Rewrite**: Complete rewrite using AutoHotkey v2.0 for better performance and stability
+- 🔧 **Improved Error Handling**: Better handling of edge cases and rapid setting changes
+- 🐛 **Bug Fixes**: Fixed GUI rendering issues, improved overlay synchronization
 
 ### v1.1.0 (January 17th 2026)
 - ✨ Added ability to disable/enable individual keybinds with × buttons
