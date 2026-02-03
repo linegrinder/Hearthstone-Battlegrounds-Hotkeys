@@ -3,7 +3,7 @@
 A lightweight hotkey overlay for Hearthstone Battlegrounds.   
 Press customizable keys to instantly __Level Up__, __Reroll__, __Freeze__, __Buy__, __Sell__, __Send to Duo Mate__ without clicking.
 
-![Screenshot](assets/screenshot%20Hearthstone%20BGs%20Hotkeys.jpg) <!-- Add a screenshot if you want -->
+![Screenshot](assets/screenshot%20HS%20BGs%20Hotkeys.jpg) <!-- Add a screenshot if you want -->
 
 ## Download
 
@@ -23,12 +23,14 @@ Just click the .exe file on the release window. That contains everything you nee
 - 🎨 **Compact & Full Display Modes**: Switch between showing only core hotkeys (Compact) or all 6 hotkeys (Full)
 - 🎯 **Universal Resolution Support**: Works on any resolution/aspect ratio (1920x1080, 2560x1440, ultrawide, etc.)
 - 💬 **Auto-Disable During Chat**: Hotkeys are automatically disabled when you open the in-game chat window (prevents accidental presses)
+- 🚀 **Auto-Start on Login**: Optional auto-launch on Windows startup (requires admin permission)
 
 ## Quick Start
 
 1. Run `HearthstoneHotkeys.exe`
 2. Configure your preferred hotkeys
 4. Choose Compact or Full display mode
+4. (Optional) Enable Auto-Start if you want the app to launch on login
 4. Click "Save & Minimize"
 5. Hotkeys work when Hearthstone is active!
 
@@ -38,8 +40,20 @@ Just click the .exe file on the release window. That contains everything you nee
 - **Disable hotkeys:** Each hotkey can be individually disabled/enabled with the × button
 - **Remove a hotkey:** Click the × button to disable that specific hotkey
 - **Mouse buttons:** Supports Mouse4, Mouse5, and Middle Mouse Button in addition to keyboard keys
-- **Access settings:** Click the system tray icon
+- **Access settings:** Click the settings ⚙️ button on the overlay or system tray icon
+- **View click locations:** Check the show click locations see exact in-game button positions
 - **One-click actions:** Press your hotkey and the action happens instantly
+
+## Auto-Start Setup
+
+To enable Auto-Start on Windows login:
+1. Save the .exe in a windows location of your choice but __not a onedrive folder!__. Windows needs direct access to this location
+2. Open the settings window
+3. Check the "Auto-Start on Login" option
+4. Windows will prompt for admin permission - click "Yes"
+5. The app will now launch automatically when you log in
+
+> **Note:** Admin permission is required for this feature to work properly.
 
 ## Compiling from Source (instead of using .exe)
 
@@ -61,7 +75,26 @@ Requires [AutoHotkey v2.0+](https://www.autohotkey.com/):
 - If not, try locking/unlocking the overlay with the 🔒/🔓 button
 - Restart the app if positioning issues persist
 
+**Chat detection not working:**
+- Make sure you are running the Game in "Fullscreen" mode
+- Restart Hearthstone and the app if issues persist
+
+**Auto-Start not working:**
+- Ensure you clicked "Yes" when Windows prompted for admin permission
+- Try running the app as administrator and enabling Auto-Start again
+- Check that your antivirus isn't blocking Task Scheduler modifications
+
 ## Changelog
+
+### v1.3 (February 3rd 2026)
+- ✨ **FileInstall Integration**: All necessary image files are now bundled directly into the .exe - no external files needed!
+- ✨ **1080p Display Optimization**: Increased font sizes and overlay width for better readability on 1080p displays
+- ✨ **Improved Chat Detection**: Enhanced chat window detection now works reliably on both 1080p and 2K displays with resolution-specific image matching
+- ✨ **Extended Hotkey Support**: Added support for F-keys (F1-F12) and mouse scroll wheel (WheelUp, WheelDown) as hotkey options
+- ✨ **Auto-Start Function**: Added option to automatically launch the app on Windows startup (requires admin permission)
+- 🎨 **Overlay UI Refinements**: Fine-tuned compact and full view widths for optimal visibility across all resolutions
+- 🎨 **GUI Tooltips**: Added helpful tooltips on settings buttons explaining each hotkey's function
+- 🐛 **Bug Fixes**: Improved overlay rendering on different Windows versions, better handling of edge cases
 
 ### v1.2 (January 29th 2026)
 - ✨ **Buy Hotkey**: Added customizable hotkey for buying minions
