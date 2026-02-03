@@ -3,7 +3,7 @@
 A lightweight hotkey overlay for Hearthstone Battlegrounds.   
 Press customizable keys to instantly __Level Up__, __Reroll__, __Freeze__, __Buy__, __Sell__, __Send to Duo Mate__ without clicking.
 
-![Screenshot](assets/screenshot%20HS%20BGs%20Hotkeys.jpg) <!-- Add a screenshot if you want -->
+![Screenshot](assets/screenshot%20HS%20BGs%20Hotkeys.png) <!-- Add a screenshot if you want -->
 
 ## Download
 
