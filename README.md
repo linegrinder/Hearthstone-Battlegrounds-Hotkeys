@@ -15,15 +15,17 @@ Just click the .exe file on the release window. That contains everything you nee
 ## Features
 
 - 🎮 **6 Customizable Hotkeys**: Level Up, Reroll, Freeze, Buy, Sell, and Send to Duo Mate (mouse buttons + keyboard)
-- 📊 **Smart Overlay**: Clean, movable overlay showing active keybinds
+- 📊 **Smart Overlay**: Clean overlay showing active keybinds
 - 🔒 **Lock/Unlock Overlay**: Lock the overlay in place or drag it around your screen
+- ⏯️ **Pause / Resume Hotkeys**: Manually turn hotkeys off & on to use chat normally ingame.
 - 👁️ **Visual Keybind Indicators**: Toggle black boxes that appear directly on the in-game buttons (Eye icon toggle)
+- 🚀 **Auto-Start on Login**: Optional auto-launch on Hearthstone startup (requires admin permission)
 - ⚙️ **Settings Persist**: Your hotkey configuration and preferences are saved between sessions
 - 🔧 **Enable/Disable Individual Hotkeys**: Each keybind can be independently disabled/enabled with × buttons
 - 🎨 **Compact & Full Display Modes**: Switch between showing only core hotkeys (Compact) or all 6 hotkeys (Full)
 - 🎯 **Universal Resolution Support**: Works on any resolution/aspect ratio (1920x1080, 2560x1440, ultrawide, etc.)
 - 💬 **Auto-Disable During Chat**: Hotkeys are automatically disabled when you open the in-game chat window (prevents accidental presses)
-- 🚀 **Auto-Start on Login**: Optional auto-launch on Hearthstone startup (requires admin permission)
+
 
 ## Quick Start
 
