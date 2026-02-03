@@ -23,7 +23,7 @@ Just click the .exe file on the release window. That contains everything you nee
 - 🎨 **Compact & Full Display Modes**: Switch between showing only core hotkeys (Compact) or all 6 hotkeys (Full)
 - 🎯 **Universal Resolution Support**: Works on any resolution/aspect ratio (1920x1080, 2560x1440, ultrawide, etc.)
 - 💬 **Auto-Disable During Chat**: Hotkeys are automatically disabled when you open the in-game chat window (prevents accidental presses)
-- 🚀 **Auto-Start on Login**: Optional auto-launch on Windows startup (requires admin permission)
+- 🚀 **Auto-Start on Login**: Optional auto-launch on Hearthstone startup (requires admin permission)
 
 ## Quick Start
 
