@@ -88,7 +88,7 @@ Requires [AutoHotkey v2.0+](https://www.autohotkey.com/):
 
 ## Changelog
 
-### v1.3 (February 3rd 2026)
+### v1.4 (February 3rd 2026)
 - ✨ **FileInstall Integration**: All necessary image files are now bundled directly into the .exe - no external files needed!
 - ✨ **1080p Display Optimization**: Increased font sizes and overlay width for better readability on 1080p displays
 - ✨ **Improved Chat Detection**: Enhanced chat window detection now works reliably on both 1080p and 2K displays with resolution-specific image matching
@@ -97,6 +97,9 @@ Requires [AutoHotkey v2.0+](https://www.autohotkey.com/):
 - 🎨 **Overlay UI Refinements**: Fine-tuned compact and full view widths for optimal visibility across all resolutions
 - 🎨 **GUI Tooltips**: Added helpful tooltips on settings buttons explaining each hotkey's function
 - 🐛 **Bug Fixes**: Improved overlay rendering on different Windows versions, better handling of edge cases
+
+### v1.3 (January 29th 2026)
+- 🐛 **Bug Fixes**: Added necessary file and improved auto-update
 
 ### v1.2 (January 29th 2026)
 - ✨ **Buy Hotkey**: Added customizable hotkey for buying minions
