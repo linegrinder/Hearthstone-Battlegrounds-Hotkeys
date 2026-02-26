@@ -26,7 +26,6 @@ Just click the .exe file on the release window. That contains everything you nee
 - 🎯 **Universal Resolution Support**: Works on any resolution/aspect ratio (1920x1080, 2560x1440, ultrawide, etc.)
 - 💬 **Auto-Disable During Chat**: Hotkeys are automatically disabled when you open the in-game chat window (prevents accidental presses)
 
-
 ## Quick Start
 
 1. Run `HearthstoneHotkeys.exe`
@@ -35,6 +34,11 @@ Just click the .exe file on the release window. That contains everything you nee
 4. (Optional) Enable Auto-Start if you want the app to launch on login
 4. Click "Save & Minimize"
 5. Hotkeys work when Hearthstone is active!
+
+## Support the Project
+
+If you enjoy the app and want to support development, a coffee goes a long way! ☕  
+**[buymeacoffee.com/linegrinder](https://buymeacoffee.com/linegrinder)**
 
 ## Usage Tips
 
@@ -47,6 +51,8 @@ Just click the .exe file on the release window. That contains everything you nee
 - **Access settings:** Click the settings ⚙️ button on the overlay or system tray icon
 - **View click locations:** Check the show click locations see exact in-game button positions
 - **One-click actions:** Press your hotkey and the action happens instantly
+
+## Usage Tips
 
 ## Auto-Start Setup
 
@@ -91,15 +97,14 @@ Requires [AutoHotkey v2.0+](https://www.autohotkey.com/):
 ## Changelog
 
 ### v1.5 (February 26th 2026)
-✨ **Linked Buy/Sell Mode**: Assign a single key to both Buy and Sell — action is determined by cursor position in the game window
-✨ **Modifier Key Support**: Hotkeys can now include modifier keys (Ctrl, Alt, Shift)
-✨ **Right Mouse Button Support**: RMB can now be assigned as a hotkey for any action
-✨ **Added Tooltip**: "i" buttons for both auto-start and linked buy/sell mode
-🎨 **Overlay Tooltips**: Hover tooltips on overlay buttons (Pause, Lock, Settings) explain each control
-🎨 **UI Polish**: Improved font (Segoe UI), refined button sizing, and DPI-aware scaling
-🎨 **Settings Hints**: "Save & Minimize" now shows a subtle "to system tray" hint beneath it
-
-🐛 Bug Fixes: Click-Through Indicators - Visual keybind indicators no longer block mouse clicks when enabled, Tooltip handling Improved
+- ✨ **Linked Buy/Sell Mode**: Assign a single key to both Buy and Sell — action is determined by cursor position in the game window
+- ✨ **Modifier Key Support**: Hotkeys can now include modifier keys (Ctrl, Alt, Shift)
+- ✨ **Right Mouse Button Support**: RMB can now be assigned as a hotkey for any action
+- ✨ **Added Tooltip**: "i" buttons for both auto-start and linked buy/sell mode
+- 🎨 **Overlay Tooltips**: Hover tooltips on overlay buttons (Pause, Lock, Settings) explain each control
+- 🎨 **UI Polish**: Improved font (Segoe UI), refined button sizing, and DPI-aware scaling
+- 🎨 **Settings Hints**: "Save & Minimize" now shows a subtle "to system tray" hint beneath it
+- 🐛 Bug Fixes: Click-Through Indicators - Visual keybind indicators no longer block mouse clicks when enabled, Tooltip handling Improved
 
 ### v1.4 (February 3rd 2026)
 - ✨ **FileInstall Integration**: All necessary image files are now bundled directly into the .exe - no external files needed!
@@ -146,7 +151,7 @@ Requires [AutoHotkey v2.0+](https://www.autohotkey.com/):
 
 ## Credits
 
-- Created by **linegrinder**
+- Created by **linegrinder** — [☕ Buy me a coffee](https://buymeacoffee.com/linegrinder)
 - Bob the Innkeeper artwork © Blizzard Entertainment
 
 ## License
