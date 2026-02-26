@@ -18,7 +18,7 @@ Just click the .exe file on the release window. That contains everything you nee
 - 📊 **Smart Overlay**: Clean overlay showing active keybinds
 - 🔒 **Lock/Unlock Overlay**: Lock the overlay in place or drag it around your screen
 - ⏯️ **Pause / Resume Hotkeys**: Manually turn hotkeys off & on to use chat normally ingame.
-- 👁️ **Visual Keybind Indicators**: Toggle black boxes that appear directly on the in-game buttons (Eye icon toggle)
+- 👁️ **Visual Keybind Indicators**: Toggle black boxes that appear directly on the in-game buttons
 - 🚀 **Auto-Start on Login**: Optional auto-launch on Hearthstone startup (requires admin permission)
 - ⚙️ **Settings Persist**: Your hotkey configuration and preferences are saved between sessions
 - 🔧 **Enable/Disable Individual Hotkeys**: Each keybind can be independently disabled/enabled with × buttons
@@ -42,6 +42,8 @@ Just click the .exe file on the release window. That contains everything you nee
 - **Disable hotkeys:** Each hotkey can be individually disabled/enabled with the × button
 - **Remove a hotkey:** Click the × button to disable that specific hotkey
 - **Mouse buttons:** Supports Mouse4, Mouse5, and Middle Mouse Button in addition to keyboard keys
+- **Modifier keys:** Hotkeys can include modifier keys (Ctrl, Alt, Shift) — e.g. Ctrl+E
+- **Linked Buy/Sell:** Enable "Use same key for buy & sell" to use one key for both, based on cursor position
 - **Access settings:** Click the settings ⚙️ button on the overlay or system tray icon
 - **View click locations:** Check the show click locations see exact in-game button positions
 - **One-click actions:** Press your hotkey and the action happens instantly
@@ -87,6 +89,17 @@ Requires [AutoHotkey v2.0+](https://www.autohotkey.com/):
 - Check that your antivirus isn't blocking Task Scheduler modifications
 
 ## Changelog
+
+### v1.5 (February 26th 2026)
+✨ **Linked Buy/Sell Mode**: Assign a single key to both Buy and Sell — action is determined by cursor position in the game window
+✨ **Modifier Key Support**: Hotkeys can now include modifier keys (Ctrl, Alt, Shift)
+✨ **Right Mouse Button Support**: RMB can now be assigned as a hotkey for any action
+✨ **Added Tooltip**: "i" buttons for both auto-start and linked buy/sell mode
+🎨 **Overlay Tooltips**: Hover tooltips on overlay buttons (Pause, Lock, Settings) explain each control
+🎨 **UI Polish**: Improved font (Segoe UI), refined button sizing, and DPI-aware scaling
+🎨 **Settings Hints**: "Save & Minimize" now shows a subtle "to system tray" hint beneath it
+
+🐛 Bug Fixes: Click-Through Indicators - Visual keybind indicators no longer block mouse clicks when enabled, Tooltip handling Improved
 
 ### v1.4 (February 3rd 2026)
 - ✨ **FileInstall Integration**: All necessary image files are now bundled directly into the .exe - no external files needed!
